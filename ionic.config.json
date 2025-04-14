@@ -1,0 +1,7 @@
+{
+  "name": "projeto crm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
