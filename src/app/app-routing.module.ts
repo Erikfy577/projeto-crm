@@ -5,12 +5,12 @@ import { InicioPage } from './inicio/inicio.page';
 const routes: Routes = [
   {
     path: 'inicio',
-    component: InicioPage, // Usando o componente standalone diretamente
+    component: InicioPage, // Página "Início"
   },
   {
     path: '',
     redirectTo: 'inicio',
-    pathMatch: 'full',
+    pathMatch: 'full', // Redireciona para "Início" por padrão
   },
 ];
 

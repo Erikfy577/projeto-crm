@@ -35,3 +35,22 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+/* filepath: c:\Users\erikg\Desktop\projeto\projeto-crm\src\global.scss */
+ion-menu {
+  --width: 240px; /* Largura do menu lateral */
+  --background: #1e1e1e; /* Cor de fundo do menu */
+  color: white; /* Cor do texto */
+}
+
+ion-menu ion-item {
+  --color: white; /* Cor do texto dos itens */
+  --background: transparent; /* Fundo transparente para os itens */
+}
+
+ion-menu ion-item:hover {
+  --background: rgba(255, 255, 255, 0.1); /* Fundo ao passar o mouse */
+}
+
+ion-menu ion-icon {
+  color: white; /* Cor dos ícones */
+}

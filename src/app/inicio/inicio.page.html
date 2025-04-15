@@ -4,9 +4,69 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div id="container">
-    <strong>Bem-vindo à página Início!</strong>
-    <p>Esta é a página inicial do seu aplicativo.</p>
+<ion-content fullscreen>
+  <div class="dashboard">
+    <!-- Bloco de boas-vindas -->
+    <div class="welcome">
+      <h1>Olá, Nome</h1>
+    </div>
+
+    <!-- Bloco de métricas -->
+    <div class="metrics">
+      <div class="metric-card">
+        <h3>Não atribuídos</h3>
+        <p>350</p>
+      </div>
+      <div class="metric-card">
+        <h3>Atribuídos</h3>
+        <p>450</p>
+      </div>
+      <div class="metric-card">
+        <h3>Fechados</h3>
+        <p>3500</p>
+      </div>
+      <div class="metric-card">
+        <h3>Canais</h3>
+        <p>3</p>
+      </div>
+    </div>
+
+    <!-- Bloco de tabelas -->
+    <div class="tables">
+      <div class="table">
+        <h3>Tickets não resolvidos</h3>
+        <table>
+          <tr>
+            <th>Status</th>
+            <th>Quantidade</th>
+          </tr>
+          <tr>
+            <td>Aguardando solicitação de recurso</td>
+            <td>4238</td>
+          </tr>
+          <tr>
+            <td>Aguardando resposta do cliente</td>
+            <td>1005</td>
+          </tr>
+          <tr>
+            <td>Aguardando correção do desenvolvedor</td>
+            <td>914</td>
+          </tr>
+          <tr>
+            <td>Pendente</td>
+            <td>281</td>
+          </tr>
+        </table>
+      </div>
+      <div class="table">
+        <h3>Tarefas</h3>
+        <ul>
+          <li>Criar nova tarefa</li>
+          <li>Atualizar dados do cliente</li>
+          <li>Responder solicitações pendentes</li>
+          <li>Gerar relatório de desempenho</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </ion-content>

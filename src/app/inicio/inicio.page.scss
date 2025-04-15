@@ -1,0 +1,71 @@
+/* filepath: c:\Users\erikg\Desktop\projeto\projeto-crm\src\app\inicio\inicio.page.scss */
+.dashboard {
+    padding: 16px;
+  }
+  
+  .welcome h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .metrics {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .metric-card {
+    flex: 1;
+    background: #06d2f7;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .metric-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .metric-card p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .tables {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .table {
+    flex: 1;
+    background: #03f0bd;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .table h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table table th,
+  .table table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .table ul li {
+    margin-bottom: 8px;
+  }
