@@ -1,21 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InicioPage } from './inicio/inicio.page';
+import { HomeComponent } from './pages/home/home.component';
+import { ClientesComponent } from './pages/clientes/clientes.component';
+import { EmpresasComponent } from './pages/empresas/empresas.component';
+import { CadastroClienteComponent } from './pages/cadastro-cliente/cadastro-cliente.component';
+import { CadastroEmpresaComponent } from './pages/cadastro-empresa/cadastro-empresa.component';
 
 const routes: Routes = [
-  {
-    path: 'inicio',
-    component: InicioPage, // Página "Início"
-  },
-  {
-    path: '',
-    redirectTo: 'inicio',
-    pathMatch: 'full', // Redireciona para "Início" por padrão
-  },
+  { path: '', component: HomeComponent },
+  { path: 'clientes', component: ClientesComponent },
+  { path: 'cadastro-cliente', component: CadastroClienteComponent },
+  { path: 'empresas', component: EmpresasComponent },
+  { path: 'cadastro-empresa', component: CadastroEmpresaComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Clientes</ion-title>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/cadastro-cliente']">
+        Novo Cliente
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let cliente of clientes">
+      <ion-label>
+        <h2>{{ cliente.nome }}</h2>
+        <p>{{ cliente.email }} - {{ cliente.numero }} - {{ cliente.empresa }}</p>
+        <p>{{ cliente.nota }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

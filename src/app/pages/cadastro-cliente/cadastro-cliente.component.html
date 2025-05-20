@@ -1,0 +1,19 @@
+<h2>Cadastro de Cliente</h2>
+<form>
+  <label>Nome:</label>
+  <input [(ngModel)]="nome" name="nome" placeholder="Digite seu nome" title="Nome"><br>
+
+  <label>Email:</label>
+  <input [(ngModel)]="email" name="email" placeholder="Digite seu email" title="Email"><br>
+
+  <label>Telefone:</label>
+  <input [(ngModel)]="numero" name="numero" placeholder="Digite seu telefone" title="Telefone"><br>
+
+  <label>Empresa:</label>
+  <input [(ngModel)]="empresa" name="empresa" placeholder="Digite o nome da empresa" title="Empresa"><br>
+
+  <label>Nota:</label>
+  <textarea [(ngModel)]="nota" name="nota" title="Nota" placeholder="Digite uma nota"></textarea><br>
+
+  <button type="button" (click)="salvar()">Salvar</button>
+</form>
